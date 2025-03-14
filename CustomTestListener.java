@@ -83,7 +83,7 @@ public class CustomTestListener implements ITestListener {
         String cc = "richard@neokred.tech,ravishankar@neokred.tech";  // CC recipients (comma-separated)
         String from = "obul@neokred.tech";  // Sender email
         String host = "smtp.office365.com";  // Office 365 SMTP Server
-        String password = "NKtech@123";  // ⚠️ Change this for security
+        String password = "Enter your email password";  // ⚠️ Change this for security
 
         Properties props = new Properties();
         props.put("mail.smtp.host", host);
