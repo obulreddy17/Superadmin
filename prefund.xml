@@ -1,0 +1,25 @@
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Perkle Dashboard Suite" parallel="none">
+    <listeners>
+        <listener class-name="client.CustomTestListener" />
+        <listener class-name="client.clientBoard" />
+    </listeners>
+
+    <test name="SuperAdmin Workflow">
+        <classes>
+            <class name="client.SuperAdmin" />
+        </classes>
+    </test>
+
+    <test name="Admin Workflow">
+        <classes>
+            <class name="client.Admin" />
+        </classes>
+    </test>
+
+    <test name="Client Workflow">
+        <classes>
+            <class name="client.Perkle" />
+        </classes>
+    </test>
+</suite>
