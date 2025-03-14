@@ -30,7 +30,7 @@ public class Perkle {
         wait.until(ExpectedConditions.visibilityOfElementLocated(By.xpath("//input[@placeholder='Enter your email']")))
             .sendKeys("obul+client@neokred.tech");
         wait.until(ExpectedConditions.visibilityOfElementLocated(By.xpath("//input[@data-path='password']")))
-            .sendKeys("NKtech@12345");
+            .sendKeys("Enter your password");
         wait.until(ExpectedConditions.elementToBeClickable(By.xpath("//button[@data-variant='subtle']"))).click();
         wait.until(ExpectedConditions.elementToBeClickable(By.xpath("//button[@type='submit']"))).click();
     }
